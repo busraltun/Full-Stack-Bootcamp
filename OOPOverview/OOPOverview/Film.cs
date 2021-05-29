@@ -54,6 +54,7 @@ namespace OOPOverview
       //set ile dışarıdan değer atama , get ile atandığı değer okunabilecek.
                                                           
       //Her Film nesnesinin ................. vardır. 
+      // Her film ....... yapar/ ile ............ yapılır. (Bu da fonskiyonlarımızdır)
 
     }
 }
