@@ -26,6 +26,7 @@ namespace IntroWebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddAuthentication();
             
         }
 
@@ -41,7 +42,7 @@ namespace IntroWebAPI
 
             app.UseRouting();
 
-            
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
